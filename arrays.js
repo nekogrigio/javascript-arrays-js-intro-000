@@ -34,8 +34,10 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   return array;
 }
 
-//Define a function in arrays.js called accessElementInArray. The function should accept an array and an index and return the element at that index.
-
 function accessElementInArray(array, index) {
   return array[index];
+}
+
+function removeElementFromEndOfArray(array) {
+  return array.slice(0, array.length - 1);
 }
