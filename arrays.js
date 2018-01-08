@@ -29,9 +29,13 @@ function removeElementFromBeginningOfArray(array) {
   return array.slice(1);
 }
 
-//Define a function in arrays.js called destructivelyRemoveElementFromEndOfArray that takes an array as its only argument and removes the last element. Your function should return the entire array, and it should mutate the array.
-
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop();
   return array;
+}
+
+//Define a function in arrays.js called accessElementInArray. The function should accept an array and an index and return the element at that index.
+
+function accessElementInArray(array, index) {
+  return array[index];
 }
