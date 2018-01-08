@@ -24,8 +24,13 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array.shift();
 }
 
-// TODO: Define a function in arrays.js called removeElementFromBeginningOfArray that takes an array as its only argument and removes the first element. Your function should then return the entire array, and it should not mutate the underlying array.
-//
 function removeElementFromBeginningOfArray(array) {
   return [...array(slice)];
+}
+
+//Define a function in arrays.js called destructivelyRemoveElementFromEndOfArray that takes an array as its only argument and removes the last element. Your function should return the entire array, and it should mutate the array.
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.push();
+  return array;
 }
